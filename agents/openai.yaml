@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-panel-115"
+  short_description: "Pastel-crayon collage stamps on textured vintage paper."
+  default_prompt: "Use $xxd-panel-115 on one image or image directory, preserving its Chinese original brief as the sole aesthetic authority and keeping comparison modes strict 50:50."
+
+policy:
+  allow_implicit_invocation: true
