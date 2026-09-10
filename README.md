@@ -39,6 +39,22 @@
 - **说明现实区与设计区：** 上下或左右对照时，注明哪一侧保留照片、哪一侧负责设计转译；纯设计和壁纸则说明整张画布都要重新设计。
 - **先单张试，再批量做：** 先用一张图确认模式、比例、文字和语言，再把同一套参数用于目录批处理；每轮只改一个变量，结果更容易比较。
 
+## 开始使用
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-115.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
+```
+
+也可以直接使用 `npx skills` 安装：
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
+```
+
+需要用户级 Codex 安装时，可追加 `--global --agent codex --yes`。安装后重新启动 Agent 会话，然后调用 `$xxd-panel-115`。
+
 ## 原始提示词 · 五种语言
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -62,22 +78,6 @@
 ## 文字与语言
 
 `prompt` 模式按原始提示词从照片提炼少量文字；`exact` 模式逐字使用本次提供的文案；`none` 模式禁止字母、数字、Logo、标签和伪文字。需明确目标语言或地区，Skill 不预写固定标题，也不从文件名猜测语言。
-
-## 开始使用
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-也可以直接使用 `npx skills` 安装：
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
-```
-
-需要用户级 Codex 安装时，可追加 `--global --agent codex --yes`。安装后重新启动 Agent 会话，然后调用 `$xxd-panel-115`。
 
 <!-- xxd-readme-ads:start -->
 ## 关于 XXD

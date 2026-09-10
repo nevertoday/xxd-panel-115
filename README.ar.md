@@ -41,6 +41,22 @@
 - **وضّح منطقتي الواقع والتصميم:** في العلوي-السفلي أو اليسار-يمين، اذكر أي منطقة تحتفظ بالصورة وأيها يعاد تصميمها؛ وفي التصميم فقط والخلفيات اذكر أن اللوحة كلها يعاد تصميمها.
 - **اختبر صورة واحدة قبل المعالجة الدفعية:** أكّد النمط والنسبة والنص واللغة على صورة واحدة، ثم استخدم الإعدادات نفسها لمجلد كامل؛ غيّر متغيراً واحداً في كل جولة.
 
+## البدء
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-115.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
+```
+
+أو ثبّته مباشرةً باستخدام:
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
+```
+
+للتثبيت على مستوى المستخدم أضف `--global --agent codex --yes`، ثم أعد تشغيل جلسة Agent واستدعِ `$xxd-panel-115`.
+
 ## الموجّه الأصلي · خمس لغات
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -70,22 +86,6 @@
 ## النص واللغة
 
 يشتق `prompt` نصاً قليلاً وفق الموجّه الأصلي، ويحفظ `exact` نص المستخدم حرفياً، ويمنع `none` الحروف والأرقام والشعارات والنص الزائف. يجب تحديد اللغة ولا تُخمّن من اسم الملف.
-
-## البدء
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-أو ثبّته مباشرةً باستخدام:
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
-```
-
-للتثبيت على مستوى المستخدم أضف `--global --agent codex --yes`، ثم أعد تشغيل جلسة Agent واستدعِ `$xxd-panel-115`.
 
 <!-- xxd-readme-ads:start -->
 ## عن XXD

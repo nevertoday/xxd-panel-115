@@ -41,6 +41,22 @@
 - **写真領域とデザイン領域を伝える：** 上下・左右では写真を残す側と再設計する側を指定し、デザインのみ・壁紙では全画面を再設計すると伝えます。
 - **一枚で試してから一括処理する：** モード、比率、文字、言語を一枚で確認し、同じ設定をフォルダに適用します。比較しやすいよう一度に一つだけ変更します。
 
+## 使い方
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-115.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
+```
+
+または：
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
+```
+
+ユーザー単位の Codex には `--global --agent codex --yes` を追加し、Agent セッションを再起動して `$xxd-panel-115` を呼び出します。
+
 ## 原文プロンプト・5言語
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -64,22 +80,6 @@
 ## 文字と言語
 
 `prompt` は原文に従って少量の文を導き、`exact` は今回の文言を一字一句保持し、`none` は文字・数字・Logo・擬似文字を禁止します。対象言語を明示し、ファイル名から推測しません。
-
-## 使い方
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-または：
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
-```
-
-ユーザー単位の Codex には `--global --agent codex --yes` を追加し、Agent セッションを再起動して `$xxd-panel-115` を呼び出します。
 
 <!-- xxd-readme-ads:start -->
 ## XXD について

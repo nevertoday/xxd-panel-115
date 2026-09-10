@@ -41,6 +41,22 @@
 - **사진 영역과 디자인 영역을 설명하세요:** 상하·좌우에서는 사진을 남길 쪽과 다시 디자인할 쪽을 말하고, 순수 디자인·배경화면은 전체 캔버스를 다시 설계한다고 알려 주세요.
 - **한 장을 먼저 시험한 뒤 일괄 처리하세요:** 모드, 비율, 텍스트, 언어를 한 장에서 확인하고 같은 설정을 폴더에 적용합니다. 비교를 위해 한 번에 한 변수만 바꾸세요.
 
+## 시작하기
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-115.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
+```
+
+또는:
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
+```
+
+사용자 단위 Codex 설치에는 `--global --agent codex --yes`를 추가하고 Agent 세션을 다시 시작한 뒤 `$xxd-panel-115`를 호출하세요.
+
 ## 원본 프롬프트 · 5개 언어
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -70,22 +86,6 @@
 ## 글자와 언어
 
 `prompt`는 원문에 따라 적은 문구를 만들고 `exact`는 이번 문구를 그대로 보존하며 `none`은 글자·숫자·Logo·가짜 글자를 금지합니다. 대상 언어를 명시하고 파일명에서 추측하지 않습니다.
-
-## 시작하기
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-또는:
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
-```
-
-사용자 단위 Codex 설치에는 `--global --agent codex --yes`를 추가하고 Agent 세션을 다시 시작한 뒤 `$xxd-panel-115`를 호출하세요.
 
 <!-- xxd-readme-ads:start -->
 ## XXD 소개

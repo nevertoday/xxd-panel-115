@@ -43,6 +43,22 @@ It addresses literal object-by-object copying, muddy separation, overfilled layo
 - **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
 - **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
 
+## Get started
+
+```bash
+git clone https://github.com/nevertoday/xxd-panel-115.git
+mkdir -p ~/.codex/skills
+ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
+```
+
+Or install directly with `npx skills`:
+
+```bash
+npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
+```
+
+Append `--global --agent codex --yes` for a user-level Codex installation. Restart the agent session, then invoke `$xxd-panel-115`.
+
 ## Original prompt · five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -66,22 +82,6 @@ Every source is generated independently. Never combine photographs or feed an in
 ## Text and language
 
 `prompt` derives sparse copy according to the original brief; `exact` preserves the user's current wording verbatim; `none` forbids letters, numerals, logos, labels, and pseudo-text. Resolve the target language or locale explicitly. The Skill never invents a fixed title or guesses language from filenames.
-
-## Get started
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-Or install directly with `npx skills`:
-
-```bash
-npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
-```
-
-Append `--global --agent codex --yes` for a user-level Codex installation. Restart the agent session, then invoke `$xxd-panel-115`.
 
 <!-- xxd-readme-ads:start -->
 ## About XXD
