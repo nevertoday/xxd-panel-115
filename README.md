@@ -10,21 +10,17 @@
 
 ## 样张展示
 
-**16:9 横版左右样张（左侧原图，右侧设计，严格 50:50）**
+本项目已发布 8 张实际样片，图片文件位于 `assets/examples/`。
 
-| sample-05 | sample-06 |
-|---|---|
-| ![XXD Panel 115 横版左右样张 1](assets/examples/sample-05.png) | ![XXD Panel 115 横版左右样张 2](assets/examples/sample-06.png) |
-| ![XXD Panel 115 横版左右样张 3](assets/examples/sample-07.png) | ![XXD Panel 115 横版左右样张 4](assets/examples/sample-08.png) |
-
-**3:4 竖版上下样张（上方原图，下方设计，严格 50:50）**
-
+| sample-05 | sample-07 | sample-09 | sample-11 |
+| --- | --- | --- | --- |
+| ![sample-05](assets/examples/sample-05.png) | ![sample-06](assets/examples/sample-06.png) |
+| sample-07 | sample-08 |
+| ![sample-07](assets/examples/sample-07.png) | ![sample-08](assets/examples/sample-08.png) |
 | sample-09 | sample-10 |
-|---|---|
-| ![XXD Panel 115 竖版上下样张 1](assets/examples/sample-09.png) | ![XXD Panel 115 竖版上下样张 2](assets/examples/sample-10.png) |
-| ![XXD Panel 115 竖版上下样张 3](assets/examples/sample-11.png) | ![XXD Panel 115 竖版上下样张 4](assets/examples/sample-12.png) |
-
-以上八张使用不同原始参考图，并由 Panel 115 依据自身原始提示词逐张独立、单轮生成；未借用其他编号作品，也未把中间结果再次加工。全部样张已清理 AI 生成与来源元数据。
+| ![sample-09](assets/examples/sample-09.png) | ![sample-10](assets/examples/sample-10.png) |
+| sample-11 | sample-12 |
+| ![sample-11](assets/examples/sample-11.png) | ![sample-12](assets/examples/sample-12.png) |
 
 ## 适用场景与解决的问题
 
