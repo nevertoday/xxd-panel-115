@@ -34,6 +34,15 @@ When a photograph is redesigned for a poster, cover, social post, or exhibition 
 
 It addresses literal object-by-object copying, muddy separation, overfilled layouts, realistic rendering, smooth vectors, excessive decoration, childish templates, 3D styling, and generic commercial-poster polish.
 
+## Usage tips
+
+- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
+- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
+- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
+- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
+- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
+- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
+
 ## Original prompt · five languages
 
 [简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
@@ -49,12 +58,6 @@ The Chinese file preserves the user's original prompt verbatim and is the sole r
 | A comparison poster rather than another filter? | Reality stays above, while the lower half is independently rebuilt as paper-and-pastel collage, exactly 50:50. |
 | A recognisable subject without visual crowding? | Only essential contour, pose, direction, and relationships remain, composed as a small stamp in generous whitespace. |
 | Friendly colour without cheap candy styling? | Two to four representative colours are drawn from the photograph and remixed into a clear, warm pastel group. |
-
-## How the photograph becomes a finished work
-
-```text
-preserve photographic reality above → understand theme, relationships, structure, emotion, and metaphor → remove irrelevant detail → rebuild a small stamp-like subject → draw with pastel-crayon lines and sparse paper collage → derive 2–4 colours and separate subject from ground → compose deliberate whitespace → add very little light type
-```
 
 ## Capabilities and boundaries
 
