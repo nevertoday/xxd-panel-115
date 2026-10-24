@@ -2,116 +2,189 @@
 
 # XXD Panel 115｜Pastel Stamp Collage Journal
 
-Rebuild a photograph's core memory as a pastel hand-drawn collage stamp on vintage paper
+**Draws the core memory of a photo as a small pastel doodle stamp on vintage paper.**
 
 <a href="README.md">简体中文</a> · <strong>English</strong> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
-## 16:9 Left–Right Samples
-
-Four independent sources on complete 16:9 canvases: reality left, this Panel's design right, exact 50:50. English copy is generated from each photograph.
-
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 115 Sample 5"></td>
-    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 115 Sample 6"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 115 Sample 7"></td>
-    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 115 Sample 8"></td>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 115"></td>
   </tr>
 </table>
 
-## 3:4 Top–Bottom Samples
+<p align="center"><sub>Top: the original photo. Bottom: the same photo in this style.</sub></p>
 
-Four further independent sources, different from the 16:9 set, regenerated as complete 3:4 top–bottom canvases. The original photograph remains above; the lower design follows this Panel's original brief.
+## What it is
 
-<table>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 115 additional top-bottom sample 1"></td>
-    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 115 additional top-bottom sample 2"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 115 additional top-bottom sample 3"></td>
-    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 115 additional top-bottom sample 4"></td>
-  </tr>
-</table>
+A Skill for AI agents such as Claude Code and Codex. Give it a photo and it paints a finished PNG following the original Panel 115 prompt.
 
-## Sample gallery
+- **What it looks like:** The subject is drawn with only its key outline, pose and direction and shrunk to a small stamp-like mark. Lines are offhand chalk or crayon doodles that vary in weight, with dry grain, broken powdery strokes, slight wobble and edges left open; structure is suggested with a few short strokes, cross-hatching or a simple grid. A few paper scraps and tiny stars, flowers or ripples may echo the mood. The ground is kraft, recycled or pale handmade paper, clearly separated from the subject in lightness or hue, with large, deliberate whitespace around it. Two to four soft pastels come from the photo, brightened with white or cream lines. Text is thin, airy typewriter-style type with slightly uneven spacing, scattered in the space.
+- **Keywords:** Pastel stamp · Chalk and crayon line · A little paper collage · Vintage paper · Deliberate whitespace · Light typewriter type
+- **What you can make:** A top–bottom comparison (photo above, design below), a left–right comparison, the design alone, or a wallpaper set for phone, tablet, desktop and watch. Pick several at once, at any ratio or exact pixel size.
+- **What it is not:** Not a filter and not a template: every image is redrawn from your photo, and each photo is its own job.
 
-**16:9 landscape left–right samples (source left, design right, strict 50:50)**
+## Get started in three steps
 
-| sample-05 | sample-06 |
-|---|---|
-| ![XXD Panel 115 landscape sample 1](assets/examples/sample-05.png) | ![XXD Panel 115 landscape sample 2](assets/examples/sample-06.png) |
-| ![XXD Panel 115 landscape sample 3](assets/examples/sample-07.png) | ![XXD Panel 115 landscape sample 4](assets/examples/sample-08.png) |
-
-**3:4 portrait top–bottom samples (source above, design below, strict 50:50)**
-
-| sample-09 | sample-10 |
-|---|---|
-| ![XXD Panel 115 portrait sample 1](assets/examples/sample-09.png) | ![XXD Panel 115 portrait sample 2](assets/examples/sample-10.png) |
-| ![XXD Panel 115 portrait sample 3](assets/examples/sample-11.png) | ![XXD Panel 115 portrait sample 4](assets/examples/sample-12.png) |
-
-The eight works use different original reference images. Panel 115 generated each one independently in a single pass from its own canonical prompt; no work from another numbered Panel or intermediate result was reused. AI-generation and provenance metadata have been removed from every sample.
-
-## Where this Panel fits — and what it solves
-
-When a photograph is redesigned for a poster, cover, social post, or exhibition image, it is easy to trace every object, fill the page, or apply a sugary children's-collage template until the original relationship and breathing room disappear.
-
-**Panel 115** treats every photograph as its own 3:4 portrait poster. The upper half preserves photographic reality; the lower half interprets the most memorable theme, relationship, structural direction, emotion, and visual metaphor as a pastel hand-drawn material collage on textured vintage paper. A small stamp-like subject, deliberate whitespace, two to four lively source-derived colours, and sparse light type create a clever, airy restatement.
-
-It addresses literal object-by-object copying, muddy separation, overfilled layouts, realistic rendering, smooth vectors, excessive decoration, childish templates, 3D styling, and generic commercial-poster polish.
-
-## Usage tips
-
-- **Start with one clear photo:** choose a source whose subject, action, and relationships are easy to recognize before choosing the delivery format.
-- **Join the parameters in one sentence:** say “top-bottom / left-right / design-only + 16:9 / 3:4 / phone wallpaper”; you can also name desktop, tablet, or smartwatch sizes.
-- **State what must stay:** identify the people, objects, actions, relationships, and copy to preserve, while leaving room for the style to design the layout.
-- **Choose a text mode:** let the model write from the image, lock exact wording with `--text exact --copy`, or remove text completely with `--text none`.
-- **Clarify reality and design regions:** for top-bottom or left-right, say which region keeps the photograph and which region is redesigned; for design-only and wallpapers, say that the whole canvas is redesigned.
-- **Test one image before batching:** confirm mode, ratio, text, and language on one source, then reuse the settings for a folder; change one variable per iteration.
-
-## Get started
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-Or install directly with `npx skills`:
+**1. Install.** Works with Claude Code, Codex and other agents that support Skills:
 
 ```bash
 npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
 ```
 
-Append `--global --agent codex --yes` for a user-level Codex installation. Restart the agent session, then invoke `$xxd-panel-115`.
+Then restart your agent session. You can also `git clone` this repository and link the folder to `~/.claude/skills/xxd-panel-115` or `~/.codex/skills/xxd-panel-115`.
 
-## Original prompt · five languages
+**2. Make sure your agent can generate images.** This Skill has no image model of its own; it uses your agent's image generation, preferably GPT Image 2.
 
-[简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+- Codex works as is when its built-in image generation is on.
+- Claude Code and other agents without built-in image generation need an OpenAI-compatible image API. It takes about five minutes: see [Setting up image generation](#setting-up-image-generation).
 
-The Chinese file preserves the user's original prompt verbatim and is the sole runtime creative and aesthetic authority. The other four files are complete, faithful reading translations and never rewrite the generation prompt.
+Not sure? Just try it. If images can't be generated, the Skill stops and tells you before doing any work.
 
-**Keywords:** strict 3:4 50:50 · vintage paper texture · pastel-crayon doodle · material collage · small stamp-like subject · 2–4 source-derived colours · deliberate whitespace · light typewriter typography
+**3. Send a photo and say one sentence:**
 
-## Is Panel 115 right for you?
+> Use xxd-panel-115 to turn this photo into a 3:4 top–bottom poster with an English title.
 
-| What you need | What this style provides |
+If your request is complete, it starts right away; anything you left out (layout, ratio, text) it asks about, usually in one or two questions. Results are PNGs in a new folder under `~/Desktop/xxd/xxd-panel-115/`.
+
+## Which photos work best
+
+**Works well**
+
+- Simple, instantly recognisable subjects: a dog, an umbrella, a cup, a bicycle
+- Small moments with a mood: someone daydreaming by a window, a flower after rain, a streetlamp at night
+- Photos you want as a sticker, avatar, journal illustration or postcard
+
+**Not a good fit**
+
+- Photos that need fine outlines or realistic reproduction: product shots, ID photos, precise structures
+- Low-contrast photos whose colours match the paper, where the subject could sink into the background
+- Requests for a filled frame, glossy vectors, children's templates or a commercial poster look
+
+## Samples
+
+Each image below is a finished result this Skill made from one photo. The top–bottom and left–right sets use different photos.
+
+### Top–bottom: photo above, design below
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 115"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 115"></td>
+  </tr>
+</table>
+
+### Left–right: photo left, design right
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 115"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 115"></td>
+  </tr>
+</table>
+
+## Just say it
+
+No parameters to memorise. Say what you want:
+
+| You want | Say |
 |---|---|
-| A comparison poster rather than another filter? | Reality stays above, while the lower half is independently rebuilt as paper-and-pastel collage, exactly 50:50. |
-| A recognisable subject without visual crowding? | Only essential contour, pose, direction, and relationships remain, composed as a small stamp in generous whitespace. |
-| Friendly colour without cheap candy styling? | Two to four representative colours are drawn from the photograph and remixed into a clear, warm pastel group. |
+| Top–bottom comparison | Make a 3:4 top–bottom comparison |
+| Left–right comparison | Make a 16:9 left–right comparison, photo on the left |
+| Design only | Just the design, no photo, 9:16 portrait |
+| A wallpaper set | Make matching wallpapers for phone, tablet, desktop and watch |
+| Several ratios | Make this one at 1:1, 3:4 and 16:9 |
+| Your own text | Use the title “Let the wind pass through” exactly as written |
+| No text | No text at all |
+| Text language | Write the text in Japanese |
+| A whole folder | Turn every photo in this folder into a top–bottom comparison |
+| Same as last time | Use my settings from last time |
 
-## Capabilities and boundaries
+Prefer the command line? The flags map one to one:
 
-Every source is generated independently. Never combine photographs or feed an intermediate, sample, or another Panel's result through a second transformation. The canonical output is a 3:4 portrait with a strict 50:50 top–bottom split; `left-right`, `design-only`, and `wallpaper-pack` are also supported. Directory inputs are inventoried in stable order, resolved once, and written as PNGs into one fresh task directory.
+```text
+/xxd-panel-115 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale en-US
+/xxd-panel-115 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-115 ./photos --mode left-right --size 16:9 --text prompt --locale ja-JP
+```
 
-## Text and language
+All flags are listed under [Parameters](#parameters).
 
-`prompt` derives sparse copy according to the original brief; `exact` preserves the user's current wording verbatim; `none` forbids letters, numerals, logos, labels, and pseudo-text. Resolve the target language or locale explicitly. The Skill never invents a fixed title or guesses language from filenames.
+## FAQ
+
+**Does the original photo have to appear?** No. Ask for “design only” or a wallpaper set and the whole canvas is design.
+
+**Who writes the text?** By default the image model writes it from your photo; you only choose the language. Give your own words and they are used exactly; or ask for no text. Anything that looks factual (places, dates, numbers) comes only from you or from what is visible in the photo, never invented.
+
+**What if I don't like the result?** Say “one more”. It redraws from the original photo instead of editing the last result, so every attempt is different.
+
+**Do photos in a batch mix together?** No. Each photo is generated on its own and never borrows another photo's colours, text or layout. Settings are asked once for the whole batch.
+
+**Where do my photos go?** Only to the image model your agent uses. The Skill uploads nothing elsewhere and never prints endpoints or keys.
+
+**How does this relate to other Panels?** XXD Panels are a family of styles, one per number, fully independent; install only the ones you like. To have AI recommend a style for a photo, or compare several at once, use the catalog [xxd-panel-all](https://github.com/nevertoday/xxd-panel-all).
+
+## Original prompt
+
+This style is defined entirely by Xiaoxiaodong's [original prompt](references/original-prompt/zh-CN.md) (in Chinese). The Skill only appends the layout, size and text settings you choose; it never summarises, translates or rewrites the prompt.
+
+Reading translations (for reading only; never sent to the image model): [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+
+## Setting up image generation
+
+You need an OpenAI-compatible API that serves `gpt-image-2` (or a compatible model) and its API key. This creates a separate config and leaves your Codex settings alone:
+
+```bash
+mkdir -p ~/.xxd-imagegen
+cat > ~/.xxd-imagegen/config.toml <<'EOF'
+model_provider = "image"
+
+[model_providers.image]
+base_url = "https://api.openai.com/v1"   # or your compatible endpoint
+env_key = "XXD_IMAGE_API_KEY"
+EOF
+
+# add to ~/.zshrc or ~/.bashrc so your agent can read them
+echo 'export XXD_IMAGEGEN_CODEX_DIR=~/.xxd-imagegen' >> ~/.zshrc
+echo 'export XXD_IMAGE_API_KEY=your-key' >> ~/.zshrc
+```
+
+Reopen your terminal and agent, then check once from this Skill's folder:
+
+```bash
+python3 scripts/configured_imagegen.py probe
+```
+
+`"ok":true` means it works. The check only reports readiness; it never prints the endpoint or key. If your Codex already generates images through a compatible API, skip this step.
+
+## Parameters
+
+| Flag | Values |
+|---|---|
+| `--mode` | `top-bottom` · `left-right` · `design-only` · `wallpaper-pack` (phone, tablet, desktop, watch); combine freely |
+| `--size` | `auto` recommended · `source` match the photo · `1:1` `3:4` `4:3` `4:5` `5:4` `2:3` `3:2` `9:16` `16:9` `21:9` `5:7` `7:5` · exact pixels such as `2160x3840`; combine freely |
+| `--text` | `prompt` written from the photo · `exact` your words (with `--copy "…"`) · `none` no text |
+| `--locale` | text language, e.g. `zh-CN` `en-US` `ja-JP` `ko-KR` `ar` |
+| `--wallpaper` | `linked` a matching set · `independent` four separate designs |
+| `--wallpaper-size` | device pixels, e.g. `phone=1440x3200,desktop=3840x2160` |
+| `--out` | another output root (default `~/Desktop/xxd/xxd-panel-115/`) |
+| `--prefs` | `last` reuse · `edit` start from last time · `new` choose again · `off` don't remember this time · `clear` forget |
+
+- With every value given, nothing is asked; otherwise only the missing values are. Pass a folder instead of `photo.jpg` to batch.
+- Combinations are generated one by one: 2 modes × 3 sizes = 6 images, each composed for its own canvas rather than cropped.
+- Comparisons are exactly 50:50. Usually the model paints only the design half and a script places the untouched photo beside it, so the split is centred and the photo is unchanged.
+- Files are named like `source-001-street-top-bottom-3x4-1152x1536.png`, all in one flat task folder.
+- Only layout, size, text mode and language are remembered, never photos, copy or keys.
 
 <!-- xxd-readme-ads:start -->
 ## About XXD

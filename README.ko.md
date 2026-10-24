@@ -2,120 +2,189 @@
 
 # XXD Panel 115｜파스텔 인장 콜라주 기록
 
-사진의 핵심 기억을 빈티지 종이 위 파스텔 손그림 인장 콜라주로 재구성합니다
+**사진의 핵심 기억을 옛 종이 위 작은 파스텔 낙서 도장으로 그립니다.**
 
 <a href="README.md">简体中文</a> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <strong>한국어</strong> · <a href="README.ar.md">العربية</a>
 
 </div>
 
-## 16:9 좌우 구성 예시
-
-서로 다른 원본 네 장으로 만든 16:9 완성 캔버스. 왼쪽은 실사, 오른쪽은 이 Panel 디자인, 정확히 50:50.
-
 <table>
   <tr>
-    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 115 Sample 5"></td>
-    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 115 Sample 6"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 115 Sample 7"></td>
-    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 115 Sample 8"></td>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 115"></td>
   </tr>
 </table>
 
-## 3:4 상하 구성 예시
+<p align="center"><sub>위는 원본 사진, 아래는 이 스타일로 다시 그린 모습입니다.</sub></p>
 
-16:9 세트와 다른 원본 네 장으로 만든 3:4 상하 완성 캔버스. 위는 실사, 아래는 디자인, 정확히 50:50.
+## 무엇인가요
 
-<table>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 115 additional top-bottom sample 1"></td>
-    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 115 additional top-bottom sample 2"></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 115 additional top-bottom sample 3"></td>
-    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 115 additional top-bottom sample 4"></td>
-  </tr>
-</table>
+Claude Code, Codex 같은 AI 에이전트용 Skill입니다. 사진 한 장을 주면 Panel 115의 원본 프롬프트대로 완성된 PNG를 그립니다.
 
-## 예시 갤러리
+- **어떤 그림이 되나요:** 주인공은 가장 중요한 윤곽, 자세, 방향만으로 그려져 작은 도장처럼 줄어듭니다. 선은 분필이나 크레용으로 손 가는 대로 그은 낙서로, 굵기가 변하고 마른 입자, 끊긴 가루 같은 획, 가벼운 떨림이 있으며 가장자리는 다 닫히지 않습니다. 구조는 짧은 선, 크로스 해칭, 간단한 격자로 보여 줍니다. 종잇조각 콜라주를 조금 곁들이고, 작은 별, 꽃, 물결 기호로 감정을 맞추기도 합니다. 바탕은 크라프트지, 재생지, 연한 수제 종이이며 주인공과 밝기나 색상에서 확실히 구분되고, 주위는 의도한 넓은 여백입니다. 색은 사진에서 가져온 부드러운 파스텔 두세 가지에서 네 가지로, 흰색이나 크림색 선으로 밝기를 더합니다. 글자는 가늘고 성기며 자간이 조금 고르지 않은 타자기풍 서체로, 여백에 흩어집니다.
+- **키워드:** 파스텔 도장 · 분필·크레용 선 · 약간의 종이 콜라주 · 레트로 종이 · 의도한 여백 · 가벼운 타자기 서체
+- **만들 수 있는 것:** 위아래 비교(위 사진, 아래 디자인), 좌우 비교, 디자인만, 또는 휴대폰·태블릿·PC·워치 배경화면 세트. 여러 개를 함께 고를 수 있고 비율과 픽셀도 자유입니다.
+- **이런 것은 아닙니다:** 필터도 템플릿도 아닙니다. 매번 사진에서 새로 그리며, 사진 한 장이 하나의 독립된 작업입니다.
 
-**16:9 가로형 좌우 구성(왼쪽 원본, 오른쪽 디자인, 엄격한 50:50)**
+## 세 단계로 시작하기
 
-| sample-05 | sample-06 |
-|---|---|
-| ![XXD Panel 115 가로 예시 1](assets/examples/sample-05.png) | ![XXD Panel 115 가로 예시 2](assets/examples/sample-06.png) |
-| ![XXD Panel 115 가로 예시 3](assets/examples/sample-07.png) | ![XXD Panel 115 가로 예시 4](assets/examples/sample-08.png) |
-
-**3:4 세로형 상하 구성(위 원본, 아래 디자인, 엄격한 50:50)**
-
-| sample-09 | sample-10 |
-|---|---|
-| ![XXD Panel 115 세로 예시 1](assets/examples/sample-09.png) | ![XXD Panel 115 세로 예시 2](assets/examples/sample-10.png) |
-| ![XXD Panel 115 세로 예시 3](assets/examples/sample-11.png) | ![XXD Panel 115 세로 예시 4](assets/examples/sample-12.png) |
-
-위 여덟 작품은 서로 다른 원본 참고 이미지를 사용했으며 Panel 115가 자체 원본 프롬프트에 따라 각각 독립된 단일 패스로 생성했습니다. 다른 번호의 작품이나 중간 결과를 재사용하지 않았습니다. 모든 예시에서 AI 생성 및 출처 메타데이터를 제거했습니다.
-
-## 적합한 상황과 해결하는 문제
-
-사진을 포스터, 표지, 소셜 콘텐츠나 전시 이미지로 다시 디자인할 때 모든 사물을 따라 그리거나 화면을 가득 채우고 달콤한 어린이 콜라주 틀을 씌우면 원본의 관계와 호흡이 사라지기 쉽습니다.
-
-**Panel 115**는 사진 한 장을 독립된 3:4 세로 포스터로 만듭니다. 위 절반은 현실 사진을 보존하고 아래 절반은 기억할 만한 주제, 관계, 구조 흐름, 감정과 시각적 은유를 빈티지 종이 질감의 파스텔 손그림 재료 콜라주로 번역합니다. 작은 인장형 주체, 의도적인 넓은 여백, 원본에서 가져온 2–4가지 생생한 색, 극소량의 가벼운 타자기 글자가 영리하고 산뜻한 재표현을 만듭니다.
-
-## 사용 팁
-
-- **선명한 사진 한 장부터 시작하세요:** 피사체, 동작, 관계가 잘 보이는 이미지를 고른 뒤 출력 방식과 비율을 정합니다.
-- **파라미터를 한 문장으로 연결하세요:** “상하 / 좌우 / 순수 디자인 + 16:9 / 3:4 / 휴대폰 배경화면”처럼 말하고 컴퓨터·태블릿·스마트워치 크기도 덧붙일 수 있습니다.
-- **남겨야 할 것을 분명히 하세요:** 인물, 사물, 동작, 관계, 문구를 지정하되 레이아웃을 지나치게 고정하지 않아야 스타일이 자연스럽게 설계합니다.
-- **텍스트 방식을 고르세요:** 이미지에서 지능적으로 생성하게 하거나, `--text exact --copy`로 정확한 문구를 고정하거나, `--text none`으로 글자를 없앨 수 있습니다.
-- **사진 영역과 디자인 영역을 설명하세요:** 상하·좌우에서는 사진을 남길 쪽과 다시 디자인할 쪽을 말하고, 순수 디자인·배경화면은 전체 캔버스를 다시 설계한다고 알려 주세요.
-- **한 장을 먼저 시험한 뒤 일괄 처리하세요:** 모드, 비율, 텍스트, 언어를 한 장에서 확인하고 같은 설정을 폴더에 적용합니다. 비교를 위해 한 번에 한 변수만 바꾸세요.
-
-## 시작하기
-
-```bash
-git clone https://github.com/nevertoday/xxd-panel-115.git
-mkdir -p ~/.codex/skills
-ln -s "$(pwd)/xxd-panel-115" ~/.codex/skills/xxd-panel-115
-```
-
-또는:
+**1. 설치.** Claude Code, Codex 등 Skills를 지원하는 에이전트에서 쓸 수 있습니다:
 
 ```bash
 npx skills add https://github.com/nevertoday/xxd-panel-115 --skill xxd-panel-115
 ```
 
-사용자 단위 Codex 설치에는 `--global --agent codex --yes`를 추가하고 Agent 세션을 다시 시작한 뒤 `$xxd-panel-115`를 호출하세요.
+설치 후 에이전트 세션을 다시 시작하세요. 이 저장소를 `git clone`한 뒤 `~/.claude/skills/xxd-panel-115` 또는 `~/.codex/skills/xxd-panel-115`에 링크해도 됩니다.
 
-## 원본 프롬프트 · 5개 언어
+**2. 에이전트가 이미지를 생성할 수 있는지 확인.** 이 Skill에는 자체 이미지 모델이 없고, 에이전트의 이미지 생성(GPT Image 2 권장)을 사용합니다.
 
-[简体中文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+- Codex는 내장 이미지 생성이 켜져 있으면 바로 쓸 수 있습니다.
+- Claude Code처럼 내장 이미지 생성이 없는 에이전트는 OpenAI 호환 이미지 API가 필요합니다. 5분 정도면 됩니다: [이미지 생성 설정](#이미지-생성-설정).
 
-중국어 파일은 사용자가 제공한 원문을 그대로 보존하며 실행 시 유일한 창작·미학 권위입니다. 나머지 네 파일은 완전하고 충실한 읽기용 번역으로 생성 프롬프트를 바꾸지 않습니다.
+잘 모르겠다면 그냥 써 보세요. 생성할 수 없으면 작업을 시작하기 전에 Skill이 멈추고 알려 줍니다.
 
-**키워드:** 3:4 엄격한 50:50 · 빈티지 종이 질감 · 파스텔 크레용 낙서 · 재료 콜라주 · 작은 인장형 주체 · 원본 기반 2–4색 · 의도적 여백 · 가벼운 타자기 글자
+**3. 사진을 보내고 한 문장으로 말하기:**
 
-## Panel 115가 맞는지 빠르게 확인
+> xxd-panel-115으로 이 사진을 3:4 위아래 비교 포스터로 만들고 한국어 제목을 붙여 줘.
 
-| 필요한 것 | 이 스타일의 답 |
+요청이 충분하면 바로 생성하고, 빠진 것(레이아웃, 비율, 글자)은 보통 한두 가지만 묻습니다. 결과 PNG는 `~/Desktop/xxd/xxd-panel-115/` 아래 새 폴더에 저장됩니다.
+
+## 잘 맞는 사진
+
+**잘 맞아요**
+
+- 단순하고 한눈에 알아보는 주인공: 강아지, 우산, 컵, 자전거
+- 감정이 담긴 작은 순간: 창가에서 멍하니 있는 사람, 비 갠 뒤의 꽃, 밤의 가로등
+- 스티커, 프로필, 다이어리 삽화, 엽서로 쓰고 싶은 사진
+
+**잘 맞지 않아요**
+
+- 가는 윤곽선이나 사실적 재현이 필요한 사진: 제품 사진, 증명사진, 정밀한 구조
+- 색이 종이색과 비슷해 주인공이 배경에 묻히기 쉬운 저대비 사진
+- 꽉 찬 화면, 매끈한 벡터, 어린이 템플릿, 상업 포스터 느낌을 원하는 경우
+
+## 샘플
+
+아래 이미지는 모두 이 Skill이 사진 한 장으로 만든 완성작입니다. 위아래 비교와 좌우 비교는 서로 다른 사진을 썼습니다.
+
+### 위아래 비교: 위 사진, 아래 디자인
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-09.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-10.png" alt="XXD Panel 115"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-11.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-12.png" alt="XXD Panel 115"></td>
+  </tr>
+</table>
+
+### 좌우 비교: 왼쪽 사진, 오른쪽 디자인
+
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-05.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-06.png" alt="XXD Panel 115"></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="./assets/examples/sample-07.png" alt="XXD Panel 115"></td>
+    <td width="50%"><img src="./assets/examples/sample-08.png" alt="XXD Panel 115"></td>
+  </tr>
+</table>
+
+## 이렇게 말하면 됩니다
+
+파라미터를 외울 필요 없이 그대로 말하세요:
+
+| 원하는 것 | 이렇게 말하기 |
 |---|---|
-| 필터가 아닌 상하 비교 포스터 | 위에는 현실 사진, 아래에는 종이·파스텔 재구성을 정확히 50%씩 배치합니다. |
-| 복잡하지 않으면서 알아볼 수 있는 주체 | 핵심 윤곽, 자세, 방향, 관계만 남겨 작은 인장과 넓은 여백으로 구성합니다. |
-| 값싼 사탕색이 아닌 친근한 색 | 사진에서 2–4색을 골라 맑고 따뜻한 파스텔로 다시 조율합니다. |
+| 위아래 비교 | 3:4 위아래 비교로 만들어 줘 |
+| 좌우 비교 | 16:9 좌우 비교, 왼쪽에 사진 |
+| 디자인만 | 사진 없이 디자인만, 9:16 세로 |
+| 배경화면 세트 | 휴대폰, 태블릿, PC, 워치 배경화면을 통일된 세트로 |
+| 여러 비율 | 같은 사진으로 1:1, 3:4, 16:9 한 장씩 |
+| 내 글자 그대로 | 제목은 「바람이 지나가는 곳」, 한 글자도 바꾸지 마 |
+| 글자 없음 | 글자는 하나도 넣지 마 |
+| 글자 언어 | 글자는 일본어로 |
+| 폴더 전체 | 이 폴더의 사진을 전부 위아래 비교로 |
+| 지난번과 같이 | 지난번 설정 그대로 |
 
-## 사진이 완성물로 바뀌는 과정
+명령줄이 편하다면 파라미터가 위와 일대일로 대응합니다:
 
 ```text
-위 현실 사진 보존 → 주제·관계·구조·감정·은유 이해 → 불필요한 세부 삭제 → 작은 인장형 주체로 재구성 → 파스텔 선과 소량의 종이 콜라주 표현 → 원본 기반 2–4색 선택 → 의도적 여백과 극소량 글자 구성
+/xxd-panel-115 photo.jpg --mode top-bottom --size 3:4 --text prompt --locale ko-KR
+/xxd-panel-115 photo.jpg --mode design-only --size 9:16 --text none
+/xxd-panel-115 ./photos --mode left-right --size 16:9 --text prompt --locale en-US
 ```
 
-## 기능과 경계
+전체 파라미터는 [파라미터 목록](#파라미터-목록)에 있습니다.
 
-사진마다 독립적으로 생성하며 여러 사진, 중간 생성물, 예시, 다른 Panel 결과를 다시 변환하지 않습니다. 표준 출력은 3:4 세로·상하 엄격한 50:50이며 `left-right`, `design-only`, `wallpaper-pack`도 지원합니다. 폴더 입력은 안정적인 순서로 목록화하고 설정을 한 번 확정한 뒤 PNG를 하나의 새 작업 디렉터리에 출력합니다.
+## 자주 묻는 질문
 
-## 글자와 언어
+**원본 사진이 꼭 들어가나요?** 아니요. "디자인만"이나 배경화면을 고르면 화면 전체가 디자인입니다.
 
-`prompt`는 원문에 따라 적은 문구를 만들고 `exact`는 이번 문구를 그대로 보존하며 `none`은 글자·숫자·Logo·가짜 글자를 금지합니다. 대상 언어를 명시하고 파일명에서 추측하지 않습니다.
+**글자는 누가 쓰나요?** 기본적으로 이미지 모델이 사진을 보고 쓰고, 여러분은 언어만 고릅니다. 직접 쓴 글자를 주면 한 글자도 바꾸지 않고, 글자 없이도 만들 수 있습니다. 사실처럼 보이는 정보(지명, 날짜, 숫자)는 여러분이 준 것이나 사진에 보이는 것만 쓰고 지어내지 않습니다.
+
+**마음에 들지 않으면요?** "한 장 더"라고 하세요. 이전 결과를 고치는 대신 원본 사진에서 다시 그리므로 매번 결과가 다릅니다.
+
+**여러 장을 한꺼번에 하면 섞이지 않나요?** 섞이지 않습니다. 사진마다 따로 생성하고 다른 사진의 색, 글자, 구도를 빌리지 않습니다. 설정은 한 번만 묻습니다.
+
+**제 사진은 어디로 가나요?** 에이전트가 쓰는 이미지 모델로만 갑니다. Skill은 다른 곳에 올리지 않고 접속 주소나 키도 표시하지 않습니다.
+
+**다른 Panel과는 어떤 관계인가요?** XXD Panel은 번호마다 스타일이 하나씩인 독립된 모음입니다. 마음에 드는 것만 설치해도 됩니다. 사진에 맞는 스타일을 AI가 추천하게 하거나 여러 개를 비교하려면 카탈로그 [xxd-panel-all](https://github.com/nevertoday/xxd-panel-all)을 쓰세요.
+
+## 원본 프롬프트
+
+이 스타일은 샤오샤오둥이 쓴 [원본 프롬프트](references/original-prompt/zh-CN.md)(중국어)만으로 정해집니다. Skill은 여러분이 고른 레이아웃, 크기, 글자 설정을 뒤에 덧붙일 뿐, 요약하거나 번역하거나 고쳐 쓰지 않습니다.
+
+참고 번역(읽기용이며 이미지 생성에는 쓰지 않음): [English](references/original-prompt/en.md) · [日本語](references/original-prompt/ja.md) · [한국어](references/original-prompt/ko.md) · [العربية](references/original-prompt/ar.md)
+
+## 이미지 생성 설정
+
+`gpt-image-2`(또는 호환 모델)를 제공하는 OpenAI 호환 API와 그 API 키가 필요합니다. 아래 방법은 별도 설정을 만들어 Codex 자체 설정에는 영향을 주지 않습니다:
+
+```bash
+mkdir -p ~/.xxd-imagegen
+cat > ~/.xxd-imagegen/config.toml <<'EOF'
+model_provider = "image"
+
+[model_providers.image]
+base_url = "https://api.openai.com/v1"   # 또는 호환 엔드포인트
+env_key = "XXD_IMAGE_API_KEY"
+EOF
+
+# ~/.zshrc 또는 ~/.bashrc에 넣어 에이전트도 읽을 수 있게
+echo 'export XXD_IMAGEGEN_CODEX_DIR=~/.xxd-imagegen' >> ~/.zshrc
+echo 'export XXD_IMAGE_API_KEY=내-키' >> ~/.zshrc
+```
+
+터미널과 에이전트를 다시 연 뒤, 이 Skill 폴더에서 한 번 확인하세요:
+
+```bash
+python3 scripts/configured_imagegen.py probe
+```
+
+`"ok":true`가 나오면 성공입니다. 사용 가능 여부만 보여 주고 주소나 키는 출력하지 않습니다. Codex가 이미 호환 API로 이미지를 만들고 있다면 이 단계는 필요 없습니다.
+
+## 파라미터 목록
+
+| 파라미터 | 값 |
+|---|---|
+| `--mode` | `top-bottom` 위아래 비교 · `left-right` 좌우 비교 · `design-only` 디자인만 · `wallpaper-pack` 4종 배경화면; 여러 개 선택 가능 |
+| `--size` | `auto` 추천 · `source` 사진 비율 · `1:1` `3:4` `4:3` `4:5` `5:4` `2:3` `3:2` `9:16` `16:9` `21:9` `5:7` `7:5` · 정확한 픽셀(예 `2160x3840`); 여러 개 선택 가능 |
+| `--text` | `prompt` 사진을 보고 작성 · `exact` 내 글자 그대로(`--copy "…"`와 함께) · `none` 글자 없음 |
+| `--locale` | 글자 언어. 예: `zh-CN` `en-US` `ja-JP` `ko-KR` `ar` |
+| `--wallpaper` | `linked` 통일된 세트 · `independent` 네 장 각각 독립 |
+| `--wallpaper-size` | 기기별 픽셀. 예: `phone=1440x3200,desktop=3840x2160` |
+| `--out` | 출력 루트 변경(기본 `~/Desktop/xxd/xxd-panel-115/`) |
+| `--prefs` | `last` 지난번 그대로 · `edit` 지난번에서 수정 · `new` 새로 고르기 · `off` 이번엔 기억 안 함 · `clear` 기록 삭제 |
+
+- 값이 모두 있으면 묻지 않고, 빠진 것만 묻습니다. `photo.jpg` 대신 폴더를 주면 일괄 처리합니다.
+- 조합은 한 장씩 생성합니다. 모드 2개 × 크기 3개 = 6장이며, 잘라 낸 것이 아니라 캔버스마다 구도를 새로 잡습니다.
+- 비교 이미지는 정확히 50:50입니다. 보통 모델은 디자인 쪽만 그리고 스크립트가 원본 사진을 그대로 옆에 붙이므로, 경계는 가운데이고 사진은 바뀌지 않습니다.
+- 파일 이름은 `source-001-street-top-bottom-3x4-1152x1536.png` 형식이며 모두 작업 폴더 하나에 평평하게 저장됩니다.
+- 레이아웃, 크기, 글자 방식과 언어만 기억하고 사진, 문구, 키는 저장하지 않습니다.
 
 <!-- xxd-readme-ads:start -->
 ## XXD 소개

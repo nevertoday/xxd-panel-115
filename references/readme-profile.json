@@ -1,0 +1,84 @@
+{
+  "skill_description": "XXD Panel 115｜Pastel Stamp Collage Journal: rebuilds the core subject and mood of a photo as a small, seal-like pastel doodle on vintage paper — chalk or crayon lines that vary in weight, with dry grain, broken powdery strokes, slight wobble and open edges, a few short strokes, cross-hatching or simple grids for structure, a little paper-scrap collage, a few tiny stars, flowers, ripples or symbols as echoes, a kraft, recycled or pale handmade paper ground that stays clearly distinct from the subject, large deliberate whitespace, two to four soft pastels from the photo brightened with white or cream lines, and a few thin, airy typewriter-style words. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-115 or asks for pastel chalk doodle, crayon stamp-like collage or vintage-paper sketch art from a photo.",
+  "short_description": "粉彩章印拼贴志：把照片画成复古纸上一枚粉笔蜡笔线条的小章印，留白很多",
+  "zh-CN": {
+    "name": "粉彩章印拼贴志",
+    "tagline": "把照片的核心记忆，画成复古纸上一枚粉彩涂鸦小章印。",
+    "look": "主体只用最关键的轮廓、姿态和方向画出，缩成一枚小章印。线条是粉笔或蜡笔的随手涂鸦，粗细有变化，带干涩颗粒、断续掉粉和轻微抖动，边缘不完全闭合；结构处用几笔短线、交叉排线或简单网格交代。可夹几片纸片拼贴和少量星点、小花、波纹符号呼应情绪。底子是牛皮纸、再生纸或浅色手工纸，和主体在明暗或色相上明显拉开，四周是大片有意识的留白。颜色取照片里二到四种柔和粉彩，再用白色或奶油色线条提亮。文字是纤细疏朗、字距略不齐的打字机字，散落在留白里。",
+    "traits": ["粉彩章印", "粉笔蜡笔线", "少量纸片拼贴", "复古纸张", "有意识留白", "轻型打字字"],
+    "good": [
+      "轮廓简单、一眼能认的主体：一只狗、一把伞、一个杯子、一辆单车",
+      "带一点情绪的小瞬间：窗边发呆的人、雨后的花、夜里的路灯",
+      "想做成贴纸、头像、手账小图或明信片的照片"
+    ],
+    "poor": [
+      "需要细密描边或写实还原的照片：产品图、证件照、精密结构",
+      "颜色和纸色接近、主体容易糊进背景的低对比照片",
+      "想要满版画面、光滑矢量、儿童模板或商业海报效果的需求"
+    ]
+  },
+  "en": {
+    "name": "Pastel Stamp Collage Journal",
+    "tagline": "Draws the core memory of a photo as a small pastel doodle stamp on vintage paper.",
+    "look": "The subject is drawn with only its key outline, pose and direction and shrunk to a small stamp-like mark. Lines are offhand chalk or crayon doodles that vary in weight, with dry grain, broken powdery strokes, slight wobble and edges left open; structure is suggested with a few short strokes, cross-hatching or a simple grid. A few paper scraps and tiny stars, flowers or ripples may echo the mood. The ground is kraft, recycled or pale handmade paper, clearly separated from the subject in lightness or hue, with large, deliberate whitespace around it. Two to four soft pastels come from the photo, brightened with white or cream lines. Text is thin, airy typewriter-style type with slightly uneven spacing, scattered in the space.",
+    "traits": ["Pastel stamp", "Chalk and crayon line", "A little paper collage", "Vintage paper", "Deliberate whitespace", "Light typewriter type"],
+    "good": [
+      "Simple, instantly recognisable subjects: a dog, an umbrella, a cup, a bicycle",
+      "Small moments with a mood: someone daydreaming by a window, a flower after rain, a streetlamp at night",
+      "Photos you want as a sticker, avatar, journal illustration or postcard"
+    ],
+    "poor": [
+      "Photos that need fine outlines or realistic reproduction: product shots, ID photos, precise structures",
+      "Low-contrast photos whose colours match the paper, where the subject could sink into the background",
+      "Requests for a filled frame, glossy vectors, children's templates or a commercial poster look"
+    ]
+  },
+  "ja": {
+    "name": "パステル印章コラージュ帖",
+    "tagline": "写真の核となる記憶を、古い紙の上の小さなパステルの落書き印章として描きます。",
+    "look": "主役はいちばん大事な輪郭、姿勢、向きだけで描かれ、小さな印章のように縮められます。線はチョークやクレヨンの走り書きで、太さに変化があり、かさついた粒子、途切れた粉っぽい筆致、かすかな揺れがあり、縁は閉じきりません。構造は短い線、クロスハッチング、簡単なマス目で示します。紙片のコラージュを少し挟み、小さな星や花、波紋の記号で気分を響かせることもあります。下地はクラフト紙、再生紙、淡い手漉き紙で、主役とは明るさや色相ではっきり差をつけ、まわりは意図した広い余白です。色は写真から取った柔らかなパステル二〜四色で、白やクリーム色の線で明るさを足します。文字は細く間隔の広い、字間が少し不揃いなタイプライター風の書体で、余白に散らばります。",
+    "traits": ["パステルの印章", "チョークとクレヨンの線", "少しの紙片コラージュ", "レトロな紙", "意図した余白", "軽いタイプライター書体"],
+    "good": [
+      "シンプルで一目でわかる主役：犬、傘、カップ、自転車",
+      "気分のある小さな瞬間：窓辺でぼんやりする人、雨上がりの花、夜の街灯",
+      "ステッカー、アイコン、手帳の挿絵、ポストカードにしたい写真"
+    ],
+    "poor": [
+      "細い描線や写実的な再現が必要な写真：商品写真、証明写真、精密な構造",
+      "色が紙色に近く、主役が背景に溶け込みやすいコントラストの低い写真",
+      "画面いっぱいの絵、つるっとしたベクター、子ども向けテンプレート、商業ポスター風を求める場合"
+    ]
+  },
+  "ko": {
+    "name": "파스텔 인장 콜라주 기록",
+    "tagline": "사진의 핵심 기억을 옛 종이 위 작은 파스텔 낙서 도장으로 그립니다.",
+    "look": "주인공은 가장 중요한 윤곽, 자세, 방향만으로 그려져 작은 도장처럼 줄어듭니다. 선은 분필이나 크레용으로 손 가는 대로 그은 낙서로, 굵기가 변하고 마른 입자, 끊긴 가루 같은 획, 가벼운 떨림이 있으며 가장자리는 다 닫히지 않습니다. 구조는 짧은 선, 크로스 해칭, 간단한 격자로 보여 줍니다. 종잇조각 콜라주를 조금 곁들이고, 작은 별, 꽃, 물결 기호로 감정을 맞추기도 합니다. 바탕은 크라프트지, 재생지, 연한 수제 종이이며 주인공과 밝기나 색상에서 확실히 구분되고, 주위는 의도한 넓은 여백입니다. 색은 사진에서 가져온 부드러운 파스텔 두세 가지에서 네 가지로, 흰색이나 크림색 선으로 밝기를 더합니다. 글자는 가늘고 성기며 자간이 조금 고르지 않은 타자기풍 서체로, 여백에 흩어집니다.",
+    "traits": ["파스텔 도장", "분필·크레용 선", "약간의 종이 콜라주", "레트로 종이", "의도한 여백", "가벼운 타자기 서체"],
+    "good": [
+      "단순하고 한눈에 알아보는 주인공: 강아지, 우산, 컵, 자전거",
+      "감정이 담긴 작은 순간: 창가에서 멍하니 있는 사람, 비 갠 뒤의 꽃, 밤의 가로등",
+      "스티커, 프로필, 다이어리 삽화, 엽서로 쓰고 싶은 사진"
+    ],
+    "poor": [
+      "가는 윤곽선이나 사실적 재현이 필요한 사진: 제품 사진, 증명사진, 정밀한 구조",
+      "색이 종이색과 비슷해 주인공이 배경에 묻히기 쉬운 저대비 사진",
+      "꽉 찬 화면, 매끈한 벡터, 어린이 템플릿, 상업 포스터 느낌을 원하는 경우"
+    ]
+  },
+  "ar": {
+    "name": "سجلّ كولاج الختم الباستيلي",
+    "tagline": "يرسم الذكرى الجوهرية في الصورة كختم صغير من خربشات الباستيل على ورق عتيق.",
+    "look": "يُرسم العنصر بمحيطه الأساسي ووضعيته واتجاهه فقط، ويُصغَّر إلى علامة صغيرة كالختم. الخطوط خربشات عفوية بالطباشير أو الطباشير الشمعي، متفاوتة السماكة، فيها حبيبات جافة وضربات مسحوقة متقطعة وارتجاف خفيف، وحوافها غير مغلقة؛ وتُلمَّح البنية ببضع ضربات قصيرة أو تظليل متقاطع أو شبكة بسيطة. قد تُضاف قصاصات ورق قليلة ونجوم أو أزهار أو تموجات صغيرة تردد المزاج. الأرضية ورق كرافت أو معاد تدويره أو ورق يدوي فاتح، منفصلة بوضوح عن العنصر في الإضاءة أو اللون، ويحيط بها فراغ واسع مقصود. تأتي من الصورة اثنتان إلى أربع درجات باستيل ناعمة، تُضاء بخطوط بيضاء أو كريمية. النص بحروف رفيعة متباعدة على طريقة الآلة الكاتبة، بتباعد غير منتظم قليلاً، متناثرة في الفراغ.",
+    "traits": ["ختم باستيلي", "خط الطباشير والشمع", "قليل من كولاج الورق", "ورق عتيق", "فراغ مقصود", "حروف آلة كاتبة خفيفة"],
+    "good": [
+      "عناصر بسيطة تُعرف من النظرة الأولى: كلب، مظلة، فنجان، دراجة",
+      "لحظات صغيرة فيها مزاج: شخص شارد قرب نافذة، زهرة بعد المطر، مصباح شارع ليلاً",
+      "صور تريدها ملصقاً أو صورة شخصية أو رسماً لدفتر مذكرات أو بطاقة بريدية"
+    ],
+    "poor": [
+      "صور تحتاج إلى خطوط دقيقة أو نقل واقعي: صور المنتجات، صور الهوية، البنى الدقيقة",
+      "الصور منخفضة التباين التي تشبه ألوانها لون الورق، فقد يذوب العنصر في الخلفية",
+      "طلب إطار مملوء أو متجهات لامعة أو قوالب أطفال أو مظهر ملصق تجاري"
+    ]
+  }
+}

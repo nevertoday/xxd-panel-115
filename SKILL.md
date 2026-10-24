@@ -1,6 +1,6 @@
 ---
 name: xxd-panel-115
-description: "Create XXD Panel 115 raster posters by preserving the source photograph above and reinterpreting its core memory below as a pastel-crayon doodle and material collage stamp on textured vintage paper. Supports isolated images, directory batches, strict 50:50 comparisons, design-only work, and wallpaper packs."
+description: "XXD Panel 115｜Pastel Stamp Collage Journal: rebuilds the core subject and mood of a photo as a small, seal-like pastel doodle on vintage paper — chalk or crayon lines that vary in weight, with dry grain, broken powdery strokes, slight wobble and open edges, a few short strokes, cross-hatching or simple grids for structure, a little paper-scrap collage, a few tiny stars, flowers, ripples or symbols as echoes, a kraft, recycled or pale handmade paper ground that stays clearly distinct from the subject, large deliberate whitespace, two to four soft pastels from the photo brightened with white or cream lines, and a few thin, airy typewriter-style words. Outputs PNG top-bottom or left-right comparisons, design-only images, or phone/tablet/desktop/watch wallpapers, from one photo or a folder. Use when the user invokes xxd-panel-115 or asks for pastel chalk doodle, crayon stamp-like collage or vintage-paper sketch art from a photo."
 ---
 
 # XXD Panel 115
